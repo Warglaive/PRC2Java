@@ -11,10 +11,13 @@
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class calculatorTest {
+
+    public calculator calc;
 
     @Test
     //@DisplayName("1 + 1 = 2")
@@ -28,4 +31,11 @@ public class calculatorTest {
     public void testAssertThatEqual() {
         assertThat("123", is("123"));
     }
+
+    @Test
+    @BeforeEach
+    public void init() {
+        this.calc = new calculator();
+    }
+
 }
