@@ -5,6 +5,7 @@
  */
 
 import static org.junit.Assert.*;
+import static org.assertj.core.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 
@@ -20,5 +21,16 @@ public class PhonebookTest {
     @BeforeEach
     public void setup() {
         this.phonebook = new Phonebook();
+    }
+
+    @Test
+    public void phonebookSearchByNameNotFound() {
+        assertThat(phonebook.searchByName("Jukka")).isNull();
+    }
+
+    @Test
+    public void phonebookAddsEntry() {
+        phonebook.add("Pekka", "040-123456");
+        assertThat(phonebook.searchByName("Pekka")).contains("040-123456");
     }
 }
