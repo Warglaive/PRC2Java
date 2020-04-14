@@ -1,0 +1,6 @@
+pub\BarkeeperTest.class
+pub\BeerSizeTest.class
+pub\DrinkerFullExceptionTest.class
+pub\DrinkerTest.class
+pub\DrinkerTooYoungExceptionTest.class
+pub\EmptyStockExceptionTest.class

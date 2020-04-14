@@ -1,0 +1,25 @@
+-encoding
+'UTF-8'
+-private
+--release
+11
+-sourcepath
+'G:/g067/trunk/wk03/passwordvalidator/src/main/java;G:/g067/trunk/wk03/passwordvalidator/target/generated-sources/annotations'
+--enable-preview
+-author
+-bottom
+'Copyright &#169; 2020. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'G:/g067/trunk/wk03/passwordvalidator/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'password validator :: G067 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'G:/g067/trunk/wk03/passwordvalidator/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'password validator :: G067 1.0-SNAPSHOT API'
